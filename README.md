@@ -58,4 +58,4 @@ Name | Description | Technology
 [lua_img]:          https://github.com/GrandEchoWhiskey/grandechowhiskey/blob/main/icons/programming/lua.png
 [love_img]:         https://github.com/GrandEchoWhiskey/grandechowhiskey/blob/main/icons/programming/love.png
 [csharp_img]:       https://github.com/GrandEchoWhiskey/grandechowhiskey/blob/main/icons/programming/csharp.png
-[unity_img]:        https://github.com/GrandEchoWhiskey/grproj-0
+[unity_img]:        https://github.com/GrandEchoWhiskey/grandechowhiskey/blob/main/icons/programming/unity.png
