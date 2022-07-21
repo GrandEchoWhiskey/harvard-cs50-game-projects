@@ -11,7 +11,7 @@
 </a></p>
 
 ### Description:
-Implemented simplest AI in a pong game.
+Implemented simplest AI in a pong game. The AI is automaticly playing for player2, but it is possible to change one line of code to swap to PvP, AIvP, PvAI, or even AIvAI
 
 ### Getting Started:
 Export this directory using SVN.
