@@ -12,6 +12,10 @@
 
 ### Description:
 Implemented simplest AI in a pong game. The AI is automaticly playing for player2, but it is possible to change one line of code to swap to PvP, AIvP, PvAI, or even AIvAI
+```lua
+-- in main.lua
+BOT_CONTROL = "two" -- both, one, two, none
+```
 
 ### Getting Started:
 Export this directory using SVN.
