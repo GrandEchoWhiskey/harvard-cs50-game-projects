@@ -11,7 +11,7 @@
 </a></p>
 
 ### Description:
-More Aliens! Catapult an alien and then split them in 3 to be sure you hit your target.
+More Aliens! Catapult an alien and then split him in 3 to be sure you hit your target.
 
 ### Getting Started:
 Export this directory using SVN.
