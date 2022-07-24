@@ -17,6 +17,8 @@
 #### Free HarvardX course on [cs50.harvard.edu/games/2018][harvard_link] 
 Certificate key: [none yet][certificate_link]
 
+> Progress on hold, due to Unity version issues.
+
 ---
 
 <div align="center" markdown>
