@@ -27,7 +27,9 @@ public class GameOverText : MonoBehaviour {
 			// reveal text only when helicopter is null (destroyed)
 			text.color = new Color(0, 0, 0, 1);
 			text.text = "Game Over\nYour Score:\n" + coins + " Coins\nPress Space to Restart!";
-			
+
+			SkyscraperSpawner.speed = 0f;
+
 			// jump is space bar by default
 			if (Input.GetButtonDown("Jump")) {
 

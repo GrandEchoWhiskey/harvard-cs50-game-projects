@@ -3,16 +3,20 @@ using System.Collections;
 
 public class ScrollingBackground : MonoBehaviour {
 
-	public float scrollSpeed = .1f;
+	public static float scrollSpeed;
 	public Renderer rend;
 
 	// Use this for initialization
 	void Start () {
+		scrollSpeed = .1f;
 		rend = GetComponent<Renderer>();
 	}
 
 	// Update is called once per frame
 	void Update () {
+		if (scrollSpeed == 0f) {
+			return;
+        }
 		// Time.time is time since the game began, vs. deltaTime, which is time since last frame
 		float offset = Time.time * scrollSpeed;
 

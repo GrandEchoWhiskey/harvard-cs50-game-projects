@@ -4,10 +4,12 @@ using System.Collections;
 public class SkyscraperSpawner : MonoBehaviour {
 
 	public GameObject[] prefabs;
-	public static float speed = 10f;
+	public static float speed;
 
 	// Use this for initialization
 	void Start () {
+
+		speed = 10f;
 
 		// aysnchronous infinite skyscraper spawning
 		StartCoroutine(SpawnSkyscrapers());
@@ -16,9 +18,16 @@ public class SkyscraperSpawner : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
+		if (speed == 0f)
+		{
+			this.StopAllCoroutines();
+			ScrollingBackground.scrollSpeed = 0f;
+		}
+
 	}
 
 	IEnumerator SpawnSkyscrapers() {
+
 		while (true) {
 
 			// create a new skyscraper from prefab selection at right edge of screen
@@ -34,4 +43,5 @@ public class SkyscraperSpawner : MonoBehaviour {
 			yield return new WaitForSeconds(Random.Range(1, 5));
 		}
 	}
+
 }
