@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class DontDestroy : MonoBehaviour {
 
+	public static int score = 0;
+
 	// make this static so it's visible across all instances
 	public static DontDestroy instance = null;
 

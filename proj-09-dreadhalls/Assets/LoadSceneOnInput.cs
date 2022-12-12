@@ -13,7 +13,10 @@ public class LoadSceneOnInput : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		if (Input.GetAxis("Submit") == 1) {
-			SceneManager.LoadScene("Play");
+			if (SceneManager.GetActiveScene().name == "GameOver")
+				SceneManager.LoadScene("Title");
+			else
+				SceneManager.LoadScene("Play");
 		}
 	}
 }

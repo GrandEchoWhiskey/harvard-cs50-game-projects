@@ -21,6 +21,8 @@ public class LevelGenerator : MonoBehaviour {
 
 	public int mazeSize;
 
+	public int holes = 4;
+
 	// spawns at the end of the maze generation
 	public GameObject pickup;
 
@@ -30,6 +32,8 @@ public class LevelGenerator : MonoBehaviour {
 	// 2D array representing the map
 	private bool[,] mapData;
 
+	private bool[,] holeData;
+
 	// we use these to dig through our maze and to spawn the pickup at the end
 	private int mazeX = 4, mazeY = 1;
 
@@ -38,6 +42,7 @@ public class LevelGenerator : MonoBehaviour {
 
 		// initialize map 2D array
 		mapData = GenerateMazeData();
+		holeData = GenerateHoleData(mapData);
 
 		// create actual maze blocks from maze boolean data
 		for (int z = 0; z < mazeSize; z++) {
@@ -46,7 +51,7 @@ public class LevelGenerator : MonoBehaviour {
 					CreateChildPrefab(wallPrefab, wallsParent, x, 1, z);
 					CreateChildPrefab(wallPrefab, wallsParent, x, 2, z);
 					CreateChildPrefab(wallPrefab, wallsParent, x, 3, z);
-				} else if (!characterPlaced) {
+				} else if (!characterPlaced && !holeData[z, x]) {
 					
 					// place the character controller on the first empty wall we generate
 					characterController.transform.SetPositionAndRotation(
@@ -58,7 +63,9 @@ public class LevelGenerator : MonoBehaviour {
 				}
 
 				// create floor and ceiling
-				CreateChildPrefab(floorPrefab, floorParent, x, 0, z);
+				if (!holeData[z, x]) {
+					CreateChildPrefab(floorPrefab, floorParent, x, 0, z);
+                }
 
 				if (generateRoof) {
 					CreateChildPrefab(ceilingPrefab, wallsParent, x, 4, z);
@@ -69,6 +76,19 @@ public class LevelGenerator : MonoBehaviour {
 		// spawn the pickup at the end
 		var myPickup = Instantiate(pickup, new Vector3(mazeX, 1, mazeY), Quaternion.identity);
 		myPickup.transform.localScale = new Vector3(0.25f, 0.25f, 0.25f);
+	}
+
+    bool[,] GenerateHoleData(bool[,] maze) {
+		bool[,] data = new bool[maze.GetLength(0), maze.GetLength(1)];
+		int x, y;
+		for (int i = 0; i < holes; i++) {
+			do {
+				y = Random.Range(0, maze.GetLength(0));
+				x = Random.Range(0, maze.GetLength(1));
+			} while (maze[y, x] == true);
+			data[y, x] = true;
+		}
+		return data;
 	}
 
 	// generates the booleans determining the maze, which will be used to construct the cubes
