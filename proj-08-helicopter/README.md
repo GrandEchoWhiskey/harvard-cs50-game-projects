@@ -6,8 +6,8 @@
 <h1 align="center">CS50’s Introduction to Game Development<br><br>Helicopter</h1>
 
 <p align="center"><a href="#">
-  <img src="https://github.com/GrandEchoWhiskey/grandechowhiskey/blob/main/icons/programming/unity.png" />
   <img src="https://github.com/GrandEchoWhiskey/grandechowhiskey/blob/main/icons/programming/csharp.png" />
+  <img src="https://github.com/GrandEchoWhiskey/grandechowhiskey/blob/main/icons/programming/unity.png" />
 </a></p>
 
 ### Description:
