@@ -17,8 +17,6 @@
 #### Free HarvardX course on [cs50.harvard.edu/games/2018][harvard_link] 
 Certificate key: [none yet][certificate_link]
 
-> Progress on hold, due to Unity version issues.
-
 ---
 
 <div align="center" markdown>
@@ -34,9 +32,9 @@ Name | Description | Technology
 [Zelda][zelda_link] | Zelda game with pot throwing | [![Lua][lua_img]![LÖVE][love_img]](#)
 [Angry][angry_link] | Throwing birds, and splitting in air | [![Lua][lua_img]![LÖVE][love_img]](#)
 [Pokemon][pokemon_link] | Pokemon game with stats, and level up | [![Lua][lua_img]![LÖVE][love_img]](#)
-[Helicopter][helicopter_link] | Comming Soon | [![C#][csharp_img]![Unity][unity_img]](#)
-[Dreadhalls][dreadhalls_link] | Comming Soon | [![C#][csharp_img]![Unity][unity_img]](#)
-[Portal][portal_link] | Comming Soon | [![C#][csharp_img]![Unity][unity_img]](#)
+[Helicopter][helicopter_link] | Collect coins flying over buildings, and avoid planes. | [![C#][csharp_img]![Unity][unity_img]](#)
+[Dreadhalls][dreadhalls_link] | 3D maze game, find the coin, but watch out for holes. | [![C#][csharp_img]![Unity][unity_img]](#)
+[Portal][portal_link] | Portal reproduction, teleport thrugh the level. | [![C#][csharp_img]![Unity][unity_img]](#)
 
 </div>
 
