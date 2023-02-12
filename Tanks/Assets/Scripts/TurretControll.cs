@@ -10,7 +10,7 @@ public class TurretControll : MonoBehaviour
 
     [Header("Muzzle Elevation")]
     public GameObject muzzleObject;
-    public float elevationSpeed = 2f;
+    public float elevationSpeed = 3f;
     public bool elevate = true; 
 
     [Range(0, 15)] public float maxBotElevation = 10f;
@@ -35,11 +35,12 @@ public class TurretControll : MonoBehaviour
         amount = Mathf.Clamp(amount, -1f, 1f);
 
         float currentPitch = muzzleObject.transform.localEulerAngles.x;
-        float moveAmount = (amount * elevationSpeed) * Time.fixedDeltaTime;
-        float newPitch = currentPitch + moveAmount;
+        float moveAmount = amount * elevationSpeed * Time.fixedDeltaTime;
+        float newPitch = (currentPitch > 180f ? currentPitch - 360f : currentPitch) + moveAmount;
 
-        newPitch = Mathf.Clamp(newPitch, maxBotElevation, maxTopElevation);
+        newPitch = Mathf.Clamp(newPitch, maxTopElevation, maxBotElevation);
 
-        muzzleObject.transform.localEulerAngles = new Vector3(newPitch, 0f, 0f);
+        muzzleObject.transform.localEulerAngles = new Vector3(newPitch < 0 ? newPitch + 360f : newPitch, 0f, 0f);
     }
+
 }
