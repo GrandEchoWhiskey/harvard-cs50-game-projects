@@ -4,30 +4,42 @@ using UnityEngine;
 
 public class TurretControll : MonoBehaviour
 {
-    public GameObject turret;
-    public float rotationSpeed = 10f;
+    [Header("Turret Rotation")]
+    public float rotationSpeed = 3f;
+    public bool rotate = true;
 
-    private Camera mainCamera;
+    [Header("Muzzle Elevation")]
+    public GameObject muzzleObject;
+    public float elevationSpeed = 2f;
+    public bool elevate = true; 
 
-    void Start()
-    {
-        mainCamera = Camera.main;
-    }
+    [Range(0, 15)] public float maxBotElevation = 10f;
+    [Range(0, -30)] public float maxTopElevation = -20f;
 
     void Update()
     {
-        Ray cameraRay = mainCamera.ViewportPointToRay(new Vector3(0.5f, 0.5f, 0f));
-        RaycastHit hit;
+        RotateTurret(rotate ? 1f : -1f);
+        ElevateMuzzle(elevate ? 1f: -1f);
+    }
 
-        if (Physics.Raycast(cameraRay, out hit))
-        {
-            Vector3 lookAtTarget = new Vector3(hit.point.x, turret.transform.position.y, hit.point.z);
-            Quaternion rotation = Quaternion.LookRotation(lookAtTarget - turret.transform.position);
-            turret.transform.rotation = Quaternion.Slerp(turret.transform.rotation, rotation, rotationSpeed * Time.deltaTime);
-        }
+    void RotateTurret(float amount)
+    {
+        amount = Mathf.Clamp(amount, -1f, 1f);
+
+        Quaternion deltaRotation = Quaternion.Euler(new Vector3(0, amount * 7 * rotationSpeed, 0) * Time.fixedDeltaTime);
+        transform.rotation *= deltaRotation;
+    }
+
+    void ElevateMuzzle(float amount)
+    {
+        amount = Mathf.Clamp(amount, -1f, 1f);
+
+        float currentPitch = muzzleObject.transform.localEulerAngles.x;
+        float moveAmount = (amount * elevationSpeed) * Time.fixedDeltaTime;
+        float newPitch = currentPitch + moveAmount;
+
+        newPitch = Mathf.Clamp(newPitch, maxBotElevation, maxTopElevation);
+
+        muzzleObject.transform.localEulerAngles = new Vector3(newPitch, 0f, 0f);
     }
 }
-
-
-
-

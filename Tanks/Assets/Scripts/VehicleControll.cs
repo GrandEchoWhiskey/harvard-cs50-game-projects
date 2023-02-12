@@ -31,7 +31,7 @@ public class VehicleControll : MonoBehaviour
 
     void rotate()
     {
-        Quaternion deltaRotation = Quaternion.Euler(new Vector3(0, Input.GetAxis("Horizontal") * 50 * rotateSpeed / 3f, 0) * Time.fixedDeltaTime);
+        Quaternion deltaRotation = Quaternion.Euler(new Vector3(0, Input.GetAxis("Horizontal") * 17 * rotateSpeed, 0) * Time.fixedDeltaTime);
         mRigidbody.MoveRotation(mRigidbody.rotation * deltaRotation);
     }
 }
