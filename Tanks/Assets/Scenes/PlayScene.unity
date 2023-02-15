@@ -153,13 +153,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 176c4762554f24245b9d7ff2be479e3b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotationSpeed: 3
-  rotate: 1
+  tankRigidbody: {fileID: 0}
+  tankMoveSpeed: 5
+  tankRotateSpeed: 3
+  turretObject: {fileID: 0}
+  turretRotateSpeed: 3
   muzzleObject: {fileID: 2041707157}
-  elevationSpeed: 10
-  elevate: 1
+  muzzleElevationSpeed: 3
   maxBotElevation: 10
   maxTopElevation: -20
+  cameraObject: {fileID: 0}
 --- !u!1 &271171690
 GameObject:
   m_ObjectHideFlags: 0
@@ -268,7 +271,7 @@ GameObject:
   - component: {fileID: 486958080}
   - component: {fileID: 486958082}
   - component: {fileID: 486958081}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: tpp
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -350,11 +353,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1082349920723868849, guid: 5f3d07d75c5cb02478bb3154bf64bc0d, type: 3}
       propertyPath: m_Layer
-      value: 1
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1788451793792189928, guid: 5f3d07d75c5cb02478bb3154bf64bc0d, type: 3}
       propertyPath: m_Name
       value: Tank
+      objectReference: {fileID: 0}
+    - target: {fileID: 1788451793792189928, guid: 5f3d07d75c5cb02478bb3154bf64bc0d, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 1955961046317441279, guid: 5f3d07d75c5cb02478bb3154bf64bc0d, type: 3}
       propertyPath: m_Convex
@@ -399,6 +406,10 @@ PrefabInstance:
     - target: {fileID: 2095508614620198692, guid: 5f3d07d75c5cb02478bb3154bf64bc0d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2397618157613924280, guid: 5f3d07d75c5cb02478bb3154bf64bc0d, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 3353636593502140411, guid: 5f3d07d75c5cb02478bb3154bf64bc0d, type: 3}
       propertyPath: m_RootOrder
@@ -464,6 +475,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7068422839464829109, guid: 5f3d07d75c5cb02478bb3154bf64bc0d, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7109104398064795677, guid: 5f3d07d75c5cb02478bb3154bf64bc0d, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7628208035224881041, guid: 5f3d07d75c5cb02478bb3154bf64bc0d, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 7777776446112242936, guid: 5f3d07d75c5cb02478bb3154bf64bc0d, type: 3}
       propertyPath: m_Convex
       value: 1
@@ -486,7 +509,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9001248144386161083, guid: 5f3d07d75c5cb02478bb3154bf64bc0d, type: 3}
       propertyPath: m_Layer
-      value: 1
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5f3d07d75c5cb02478bb3154bf64bc0d, type: 3}
@@ -723,7 +746,7 @@ GameObject:
   - component: {fileID: 1786803765}
   - component: {fileID: 1786803763}
   - component: {fileID: 1786803764}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: fpp
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -761,7 +784,7 @@ Camera:
   m_Depth: 0
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 53
+    m_Bits: 183
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 0}
   m_TargetDisplay: 0
@@ -904,18 +927,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3353636593502140411, guid: 5f3d07d75c5cb02478bb3154bf64bc0d, type: 3}
   m_PrefabInstance: {fileID: 547315324}
   m_PrefabAsset: {fileID: 0}
---- !u!75 &1952653871
-ConstantForce:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1952653869}
-  m_Enabled: 0
-  m_Force: {x: 0, y: 0, z: 0}
-  m_RelativeForce: {x: 0, y: 0, z: 0}
-  m_Torque: {x: 0, y: 0, z: 0}
-  m_RelativeTorque: {x: 0, y: 0, z: 0}
 --- !u!54 &1952653872
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -932,21 +943,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &1952653873
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1952653869}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bd682edb83873654ab6092dd28a68dc2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mRigidbody: {fileID: 1952653872}
-  moveSpeed: 5
-  rotateSpeed: 3
 --- !u!114 &1952653874
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -964,6 +960,28 @@ MonoBehaviour:
   turret: {fileID: 155401064}
   sesitivity: 10
   distance: 10
+--- !u!114 &1952653875
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1952653869}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 176c4762554f24245b9d7ff2be479e3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tankRigidbody: {fileID: 1952653872}
+  tankMoveSpeed: 5
+  tankRotateSpeed: 3
+  turretObject: {fileID: 155401064}
+  turretRotateSpeed: 3
+  muzzleObject: {fileID: 2041707157}
+  muzzleElevationSpeed: 3
+  maxBotElevation: 10
+  maxTopElevation: -20
+  cameraObject: {fileID: 1786803762}
 --- !u!1 &2041707157 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 9001248144386161083, guid: 5f3d07d75c5cb02478bb3154bf64bc0d, type: 3}

@@ -30,7 +30,7 @@ public class CameraControll : MonoBehaviour
             firstPerson = !firstPerson;
         }
 
-        pitch = Mathf.Clamp(pitch, firstPerson ? -30f : -10f, firstPerson ? 30f : 40f);
+        pitch = Mathf.Clamp(pitch, firstPerson ? -30f : 0f, firstPerson ? 30f : 40f);
 
         tpp.enabled = !firstPerson;
         fpp.enabled = firstPerson;
