@@ -70,7 +70,7 @@ public class TankControll : MonoBehaviour
     void RotateTurret(float amount)
     {
         amount = Mathf.Clamp(amount, -1f, 1f);
-        Quaternion deltaRotation = Quaternion.Euler(new Vector3(0f, amount * 7f * turretRotateSpeed, 0f) * Time.fixedDeltaTime);
+        Quaternion deltaRotation = Quaternion.Euler(new Vector3(0f, amount * 9f * turretRotateSpeed, 0f) * Time.fixedDeltaTime);
         turretObject.transform.rotation *= deltaRotation;
     }
 
