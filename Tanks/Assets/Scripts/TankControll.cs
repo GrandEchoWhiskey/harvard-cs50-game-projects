@@ -4,30 +4,37 @@ using UnityEngine;
 
 public class TankControll : MonoBehaviour
 {
-    [Header("Track Movement")]
+    [Header("Tracks")]
     public Rigidbody tankRigidbody = null;
     public float tankMoveSpeed = 5f;
     public float tankRotateSpeed = 3f;
 
-    [Header("Turret Rotation")]
+    [Header("Turret")]
     public GameObject turretObject = null;
     public float turretRotateSpeed = 3f;
 
-    [Header("Muzzle Elevation")]
+    [Header("Muzzle")]
     public GameObject muzzleObject = null;
     public float muzzleElevationSpeed = 3f;
     [Range(0f, 15f)] public float maxBotElevation = 10f;
     [Range(0f, -30f)] public float maxTopElevation = -20f;
 
+    [Header("Shooting")]
+    public GameObject bulletSpawnerObject = null;
+
     [Header("Camera")]
-    public GameObject cameraObject = null;
+    public GameObject fppObject = null;
+
+    public CameraControll script = null;
 
     void Start()
     {
         if (tankRigidbody == null) tankRigidbody = GameObject.Find("Tank").GetComponent<Rigidbody>();
         if (turretObject == null) turretObject = GameObject.Find("Tank/turret");
         if (muzzleObject == null) muzzleObject = GameObject.Find("Tank/turret/muzzle");
-        if (cameraObject == null) cameraObject = GameObject.Find("Tank/fpp");
+        if (bulletSpawnerObject == null) bulletSpawnerObject = GameObject.Find("Tank/turret/muzzle/BulletSpawner");
+        if (fppObject == null) fppObject = GameObject.Find("Tank/fpp");
+        if (script == null) script = GameObject.Find("Tank").GetComponent<CameraControll>();
     }
 
     void FixedUpdate()
@@ -37,10 +44,26 @@ public class TankControll : MonoBehaviour
 
         if (!Input.GetKey(KeyCode.LeftShift))
         {
-            RotateTurret(GetControllDirection(turretObject.transform.localEulerAngles.y, cameraObject.transform.localEulerAngles.y));
-            ElevateMuzzle(GetControllDirection(muzzleObject.transform.localEulerAngles.x, cameraObject.transform.localEulerAngles.x));
+            RotateTurret(GetControllDirection(turretObject.transform.localEulerAngles.y, fppObject.transform.localEulerAngles.y));
+            ElevateMuzzle(GetControllDirection(muzzleObject.transform.localEulerAngles.x, CalculateXAngle(script.firstPerson)));
+        }
+
+        if (Input.GetMouseButtonDown(0))
+        {
+            Shoot();
         }
         
+    }
+
+    void Shoot()
+    {
+
+    }
+
+    float CalculateXAngle(bool isFirst)
+    {
+        if (isFirst) return fppObject.transform.localEulerAngles.x;
+        return fppObject.transform.localEulerAngles.x - 25;
     }
 
     float GetControllDirection(float ang1, float ang2)
