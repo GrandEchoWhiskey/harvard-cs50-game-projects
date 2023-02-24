@@ -163,6 +163,7 @@ MonoBehaviour:
   maxBotElevation: 10
   maxTopElevation: -20
   bulletSpawnerObject: {fileID: 0}
+  bulletPrefab: {fileID: 0}
   fppObject: {fileID: 0}
   script: {fileID: 0}
 --- !u!4 &155401075 stripped
@@ -516,7 +517,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7777776446112242943, guid: 5f3d07d75c5cb02478bb3154bf64bc0d, type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9001248144386161083, guid: 5f3d07d75c5cb02478bb3154bf64bc0d, type: 3}
       propertyPath: m_Layer
@@ -1261,17 +1262,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 176c4762554f24245b9d7ff2be479e3b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tankRigidbody: {fileID: 1952653872}
+  tankRigidbody: {fileID: 0}
   tankMoveSpeed: 5
   tankRotateSpeed: 3
-  turretObject: {fileID: 155401064}
+  turretObject: {fileID: 0}
   turretRotateSpeed: 3
-  muzzleObject: {fileID: 2041707157}
+  muzzleObject: {fileID: 0}
   muzzleElevationSpeed: 3
   maxBotElevation: 10
   maxTopElevation: -20
   bulletSpawnerObject: {fileID: 0}
-  fppObject: {fileID: 1786803762}
+  bulletPrefab: {fileID: 0}
+  fppObject: {fileID: 0}
   script: {fileID: 0}
 --- !u!1 &2023292155
 GameObject:

@@ -21,6 +21,9 @@ public class TankControll : MonoBehaviour
 
     [Header("Shooting")]
     public GameObject bulletSpawnerObject = null;
+    public GameObject bulletPrefab = null;
+
+    GameObject lastBullet;
 
     [Header("Camera")]
     public GameObject fppObject = null;
@@ -35,6 +38,7 @@ public class TankControll : MonoBehaviour
         if (bulletSpawnerObject == null) bulletSpawnerObject = GameObject.Find("Tank/turret/muzzle/BulletSpawner");
         if (fppObject == null) fppObject = GameObject.Find("Tank/fpp");
         if (script == null) script = GameObject.Find("Tank").GetComponent<CameraControll>();
+        if (bulletPrefab == null) bulletPrefab = Resources.Load<GameObject>("Prefabs/Bullet");
     }
 
     void FixedUpdate()
@@ -48,7 +52,7 @@ public class TankControll : MonoBehaviour
             ElevateMuzzle(GetControllDirection(muzzleObject.transform.localEulerAngles.x, CalculateXAngle(script.firstPerson)));
         }
 
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetButtonDown("Fire1"))
         {
             Shoot();
         }
@@ -57,7 +61,7 @@ public class TankControll : MonoBehaviour
 
     void Shoot()
     {
-
+        lastBullet = Instantiate(bulletPrefab, bulletSpawnerObject.transform.position, bulletSpawnerObject.transform.rotation);
     }
 
     float CalculateXAngle(bool isFirst)
