@@ -5,8 +5,8 @@ using UnityEngine;
 public class Bullet : MonoBehaviour
 {
 
-    public float speed = 10f;
-    public Vector3 direction = Vector3.forward;
+    public float speed = 0f;
+    public Vector3 direction = Vector3.zero;
 
     // Start is called before the first frame update
     void Start()
@@ -22,7 +22,8 @@ public class Bullet : MonoBehaviour
 
     void OnCollisionEnter(Collision other)
     {
-        if (gameObject != null)
+        Collider collider = other.collider;
+        if (collider != null)
             Destroy(gameObject);
     }
 }

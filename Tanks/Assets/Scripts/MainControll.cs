@@ -10,6 +10,8 @@ public class MainControll : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Escape))
         {
             SceneManager.LoadScene("MainScene");
+            Cursor.lockState = CursorLockMode.Confined;
+            Cursor.visible = true;
         }
 
     }
@@ -17,6 +19,8 @@ public class MainControll : MonoBehaviour
     public void ChangePlayScene()
     {
         SceneManager.LoadScene("PlayScene");
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
     }
 
 }

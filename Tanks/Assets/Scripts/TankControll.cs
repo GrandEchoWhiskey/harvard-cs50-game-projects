@@ -21,15 +21,15 @@ public class TankControll : MonoBehaviour
 
     [Header("Shooting")]
     public GameObject bulletSpawnerObject = null;
-    public GameObject bulletPrefab = null;
-
-    GameObject lastBullet;
+    [SerializeField] private GameObject bulletPrefab = null;
+    public float reloadTime = 10f;
+    bool reloading = true;
 
     [Header("Camera")]
     public GameObject fppObject = null;
 
     public CameraControll script = null;
-
+    
     void Start()
     {
         if (tankRigidbody == null) tankRigidbody = GameObject.Find("Tank").GetComponent<Rigidbody>();
@@ -38,7 +38,7 @@ public class TankControll : MonoBehaviour
         if (bulletSpawnerObject == null) bulletSpawnerObject = GameObject.Find("Tank/turret/muzzle/BulletSpawner");
         if (fppObject == null) fppObject = GameObject.Find("Tank/fpp");
         if (script == null) script = GameObject.Find("Tank").GetComponent<CameraControll>();
-        if (bulletPrefab == null) bulletPrefab = Resources.Load<GameObject>("Prefabs/Bullet");
+        if (bulletPrefab == null) bulletPrefab = GameObject.Find("Bullet");
     }
 
     void FixedUpdate()
@@ -52,16 +52,26 @@ public class TankControll : MonoBehaviour
             ElevateMuzzle(GetControllDirection(muzzleObject.transform.localEulerAngles.x, CalculateXAngle(script.firstPerson)));
         }
 
-        if (Input.GetButtonDown("Fire1"))
-        {
-            Shoot();
-        }
+        if ((Input.GetButtonDown("Fire1") || Input.GetMouseButton(0)) && !reloading) Shoot();
         
     }
 
     void Shoot()
     {
-        lastBullet = Instantiate(bulletPrefab, bulletSpawnerObject.transform.position, bulletSpawnerObject.transform.rotation);
+        if (bulletPrefab == null)
+            return;
+        GameObject bulletObject = Instantiate(bulletPrefab, bulletSpawnerObject.transform.position, bulletSpawnerObject.transform.rotation, transform);
+        Bullet bullet = bulletObject.GetComponent<Bullet>();
+        bullet.direction = bulletSpawnerObject.transform.forward;
+        bullet.speed = 10f;
+        StartCoroutine(Reload());
+    }
+
+    IEnumerator Reload()
+    {
+        reloading = true;
+        yield return new WaitForSeconds(reloadTime);
+        reloading = false;
     }
 
     float CalculateXAngle(bool isFirst)
