@@ -1,4 +1,4 @@
-# Tank Game
+# Tanks
 This is a 3D tank game made with Unity, where the player controls a tank and shoots enemy targets in a battlefield environment.
 
 ## Gameplay
@@ -18,6 +18,18 @@ This script defines the behavior of bullets. It sets the speed and direction of 
 
 ## Credits
 This game was created by Eric Wolf. The tank and bullet models were downloaded from the Unity Asset Store. The battlefield environment was created by Eric Wolf using Unity's terrain tools.
+
+## About Creating
+
+Creating rotations for different parts of a tank in a game can be a bit challenging, as each part may require a different type of rotation. In this tank game, the tank, turret, and muzzle all required different types of rotations.
+
+The tank movement was relatively straightforward, as it only required the tank to rotate left or right and move forward or backward. This was done using Unity's built-in Rigidbody component and the tank's Transform component.
+
+On the other hand, the turret rotation required a different approach. It needed to rotate around the base of the turret and follow the mouse movement. This was done by using the Transform component of the turret and applying the rotation using the mouse position.
+
+The muzzle elevation was another challenge as it required a combination of both rotation and translation. The muzzle needed to elevate or lower based on the mouse movement while keeping its rotation aligned with the turret. This was achieved by applying a rotation around the X-axis of the muzzle Transform and a translation along the Z-axis based on the mouse position.
+
+Overall, creating rotations for the different parts of the tank required a combination of different techniques, such as using Transform components, applying rotations and translations, and following mouse positions. With careful planning and experimentation, it was possible to create a smooth and responsive tank game that feels natural and fun to play.
 
 ## Problems
 Although this tank game has several interesting features, it also presents some challenges that could be improved in future versions:
