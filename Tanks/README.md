@@ -10,17 +10,6 @@ The objective of the game is to shoot down all enemy targets to win. The game en
 ### TankControll.cs
 This script is responsible for the main game logic. It handles the movement and rotation of the tank, turret, and muzzle. It also handles shooting and reloading, and updates the player's score and the UI text accordingly.
 
-### CameraControll.cs
-This script handles the first-person camera movement. It allows the player to look around with the mouse and switch between first-person and third-person views.
-
-### Bullet.cs
-This script defines the behavior of bullets. It sets the speed and direction of the bullet, and destroys it when it collides with an object.
-
-## Credits
-This game was created by Eric Wolf. The tank and bullet models were downloaded from the Unity Asset Store. The battlefield environment was created by Eric Wolf using Unity's terrain tools.
-
-## About Creating
-
 Creating rotations for different parts of a tank in a game can be a bit challenging, as each part may require a different type of rotation. In this tank game, the tank, turret, and muzzle all required different types of rotations.
 
 The tank movement was relatively straightforward, as it only required the tank to rotate left or right and move forward or backward. This was done using Unity's built-in Rigidbody component and the tank's Transform component.
@@ -30,6 +19,15 @@ On the other hand, the turret rotation required a different approach. It needed 
 The muzzle elevation was another challenge as it required a combination of both rotation and translation. The muzzle needed to elevate or lower based on the mouse movement while keeping its rotation aligned with the turret. This was achieved by applying a rotation around the X-axis of the muzzle Transform and a translation along the Z-axis based on the mouse position.
 
 Overall, creating rotations for the different parts of the tank required a combination of different techniques, such as using Transform components, applying rotations and translations, and following mouse positions. With careful planning and experimentation, it was possible to create a smooth and responsive tank game that feels natural and fun to play.
+
+### CameraControll.cs
+This script handles the first-person camera movement. It allows the player to look around with the mouse and switch between first-person and third-person views.
+
+### Bullet.cs
+This script defines the behavior of bullets. It sets the speed and direction of the bullet, and destroys it when it collides with an object.
+
+## Credits
+This game was created by Eric Wolf. The tank and bullet models were downloaded from the Unity Asset Store. The battlefield environment was created by Eric Wolf using Unity's terrain tools.
 
 ## Problems
 Although this tank game has several interesting features, it also presents some challenges that could be improved in future versions:
