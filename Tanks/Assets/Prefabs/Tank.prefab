@@ -791,6 +791,7 @@ GameObject:
   - component: {fileID: 3119565247618791760}
   - component: {fileID: -6288342516560798759}
   - component: {fileID: 611933874865084179}
+  - component: {fileID: -5096887225779701857}
   m_Layer: 7
   m_Name: Tank
   m_TagString: Untagged
@@ -829,7 +830,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3718626934245032180}
   serializedVersion: 2
-  m_Mass: 1
+  m_Mass: 1000
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
@@ -881,6 +882,18 @@ MonoBehaviour:
   reloadTime: 10
   fppObject: {fileID: 0}
   script: {fileID: 0}
+--- !u!75 &-5096887225779701857
+ConstantForce:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3718626934245032180}
+  m_Enabled: 1
+  m_Force: {x: 0, y: 0, z: 0}
+  m_RelativeForce: {x: 0, y: 0, z: 0}
+  m_Torque: {x: 0, y: 0, z: 0}
+  m_RelativeTorque: {x: 0, y: 0, z: 0}
 --- !u!1 &4798087161345262221
 GameObject:
   m_ObjectHideFlags: 0

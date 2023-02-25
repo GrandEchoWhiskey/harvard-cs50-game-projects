@@ -352,6 +352,7 @@
 "Assets/Scripts/Bullet.cs"
 "Assets/Scripts/CameraControll.cs"
 "Assets/Scripts/MainControll.cs"
+"Assets/Scripts/scoreScript.cs"
 "Assets/Scripts/TankControll.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01_UGUI.cs"

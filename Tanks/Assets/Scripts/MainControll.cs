@@ -23,4 +23,11 @@ public class MainControll : MonoBehaviour
         Cursor.visible = false;
     }
 
+    public void ChangeEndScene()
+    {
+        SceneManager.LoadScene("EndScene");
+        Cursor.lockState = CursorLockMode.Confined;
+        Cursor.visible = true;
+    }
+
 }

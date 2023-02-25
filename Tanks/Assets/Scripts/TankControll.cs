@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class TankControll : MonoBehaviour
 {
@@ -23,13 +24,19 @@ public class TankControll : MonoBehaviour
     public GameObject bulletSpawnerObject = null;
     [SerializeField] private GameObject bulletPrefab = null;
     public float reloadTime = 10f;
-    bool reloading = true;
+    bool reloading = false;
 
     [Header("Camera")]
     public GameObject fppObject = null;
-
     public CameraControll script = null;
-    
+
+    [Header("Other")]
+    [HideInInspector] public int score = 0;
+    public TMP_Text scoreText = null;
+    public TMP_Text reloadText = null;
+    public MainControll mainControll;
+
+
     void Start()
     {
         if (tankRigidbody == null) tankRigidbody = GameObject.Find("Tank").GetComponent<Rigidbody>();
@@ -38,7 +45,6 @@ public class TankControll : MonoBehaviour
         if (bulletSpawnerObject == null) bulletSpawnerObject = GameObject.Find("Tank/turret/muzzle/BulletSpawner");
         if (fppObject == null) fppObject = GameObject.Find("Tank/fpp");
         if (script == null) script = GameObject.Find("Tank").GetComponent<CameraControll>();
-        if (bulletPrefab == null) bulletPrefab = GameObject.Find("Bullet");
     }
 
     void FixedUpdate()
@@ -53,17 +59,28 @@ public class TankControll : MonoBehaviour
         }
 
         if ((Input.GetButtonDown("Fire1") || Input.GetMouseButton(0)) && !reloading) Shoot();
-        
+
+        reloadText.text = reloading ? "Reloading" : "Ready"; 
+        scoreText.text = "Score: " + score.ToString();
+
+        if (score >= 3)
+        {
+            PlayerPrefs.SetInt("Score", score);
+            mainControll.ChangeEndScene();
+        }
     }
 
     void Shoot()
     {
-        if (bulletPrefab == null)
-            return;
+        if (bulletPrefab == null) return;
         GameObject bulletObject = Instantiate(bulletPrefab, bulletSpawnerObject.transform.position, bulletSpawnerObject.transform.rotation, transform);
         Bullet bullet = bulletObject.GetComponent<Bullet>();
         bullet.direction = bulletSpawnerObject.transform.forward;
-        bullet.speed = 10f;
+        bullet.speed = 100f;
+        bullet.tc = this;
+
+        tankRigidbody.AddForce(bulletSpawnerObject.transform.forward * -100000f);
+
         StartCoroutine(Reload());
     }
 

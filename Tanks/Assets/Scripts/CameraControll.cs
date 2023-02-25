@@ -28,6 +28,8 @@ public class CameraControll : MonoBehaviour
 
     void Start()
     {
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
         fpp.transform.position = new Vector3(fpp.transform.position.x, fpp.transform.position.y + yOffset, fpp.transform.position.z);
     }
 
