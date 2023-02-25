@@ -1,4 +1,4 @@
-## Tank Game
+# Tank Game
 This is a 3D tank game made with Unity, where the player controls a tank and shoots enemy targets in a battlefield environment.
 
 ## Gameplay
@@ -30,3 +30,14 @@ Although this tank game has several interesting features, it also presents some 
 
 Despite these limitations, the game is still enjoyable and well-designed, and it showcases some of the capabilities of Unity and game development in general. By addressing these issues and adding more features, the game could become even more compelling and immersive.
 
+## TODO:
+- Create enemy AI to make enemies more challenging.
+- Add power-ups for the player to collect, such as health boosts or more powerful bullets.
+- Create different types of enemy targets with varying health and attack patterns.
+- Add different levels with unique landscapes and obstacles.
+- Implement a multiplayer mode to allow players to compete against each other.
+- Improve graphics and sound effects to enhance the player's experience.
+- Add a tutorial or instructions screen for new players.
+- Implement a leaderboard to track high scores.
+- Test the game thoroughly and fix any bugs or glitches.
+- Optimize the game for better performance on different devices.
