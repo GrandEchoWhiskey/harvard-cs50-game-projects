@@ -3,7 +3,7 @@
 <p align="center"><a href="https://cs50.harvard.edu/games/2018">
   <img src="https://github.com/GrandEchoWhiskey/grandechowhiskey/blob/main/icons/course/harvard100.png" /><br>
 </a></p>
-<h1 align="center">CS50’s Introduction to Game Development<br><br>Final Project - Tanks</h1>
+<h1 align="center">CS50’s Introduction to Game Development<br><br>Final Project<br>Tanks</h1>
 
 <p align="center"><a href="#">
   <img src="https://github.com/GrandEchoWhiskey/grandechowhiskey/blob/main/icons/programming/csharp.png" />
