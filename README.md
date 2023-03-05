@@ -15,7 +15,7 @@
 <br>
 
 #### Free HarvardX course on [cs50.harvard.edu/games/2018][harvard_link] 
-Certificate key: [none yet][certificate_link]
+Certificate key: [104a74c3-5cb6-40a0-8717-b2c650b59f04][certificate_link]
 
 ---
 
@@ -38,10 +38,16 @@ Name | Description | Technology
 
 </div>
 
+---
+  
+<p align="center"><a href="https://certificates.cs50.io/104a74c3-5cb6-40a0-8717-b2c650b59f04">
+  <img src="data/CS50G.png" width="90%"/>
+</a></p>
+
 <!-- Links -->
 
 [harvard_link]:     https://cs50.harvard.edu/games/2018
-[certificate_link]: #
+[certificate_link]: https://certificates.cs50.io/104a74c3-5cb6-40a0-8717-b2c650b59f04
 
 [pong_link]:        proj-00-pong
 [flappy_link]:      proj-01-flappy
