@@ -24,16 +24,16 @@ Certificate key: [104a74c3-5cb6-40a0-8717-b2c650b59f04][certificate_link]
 ## Projects:
 \# | Name | Description | Technology
 :---: | :--- | :--- | :---:
-00 | [Pong][pong_link] | Easy pong game with implemented basic AI | [![Lua][lua_img]![LÖVE][love_img]](#)
-01 | [Flappy][flappy_link] | Reproduction of Flappy Bird | [![Lua][lua_img]![LÖVE][love_img]](#)
-02 | [Breakout][breakout_link] | Breakout game with powerups | [![Lua][lua_img]![LÖVE][love_img]](#)
-03 | [Match][match_link] | Match 3 in a row, added special tiles | [![Lua][lua_img]![LÖVE][love_img]](#)
-04 | [Mario][mario_link] | Mario game generated automaticly | [![Lua][lua_img]![LÖVE][love_img]](#)
-05 | [Zelda][zelda_link] | Zelda game with pot throwing | [![Lua][lua_img]![LÖVE][love_img]](#)
-06 | [Angry][angry_link] | Throwing birds, and splitting in air | [![Lua][lua_img]![LÖVE][love_img]](#)
-07 | [Pokemon][pokemon_link] | Pokemon game with stats, and level up | [![Lua][lua_img]![LÖVE][love_img]](#)
-08 | [Helicopter][helicopter_link] | Collect coins flying over buildings, and avoid planes. | [![C#][csharp_img]![Unity][unity_img]](#)
-09 | [Dreadhalls][dreadhalls_link] | 3D maze game, find the coin, but watch out for holes. | [![C#][csharp_img]![Unity][unity_img]](#)
+0 | [Pong][pong_link] | Easy pong game with implemented basic AI | [![Lua][lua_img]![LÖVE][love_img]](#)
+1 | [Flappy][flappy_link] | Reproduction of Flappy Bird | [![Lua][lua_img]![LÖVE][love_img]](#)
+2 | [Breakout][breakout_link] | Breakout game with powerups | [![Lua][lua_img]![LÖVE][love_img]](#)
+3 | [Match][match_link] | Match 3 in a row, added special tiles | [![Lua][lua_img]![LÖVE][love_img]](#)
+4 | [Mario][mario_link] | Mario game generated automaticly | [![Lua][lua_img]![LÖVE][love_img]](#)
+5 | [Zelda][zelda_link] | Zelda game with pot throwing | [![Lua][lua_img]![LÖVE][love_img]](#)
+6 | [Angry][angry_link] | Throwing birds, and splitting in air | [![Lua][lua_img]![LÖVE][love_img]](#)
+7 | [Pokemon][pokemon_link] | Pokemon game with stats, and level up | [![Lua][lua_img]![LÖVE][love_img]](#)
+8 | [Helicopter][helicopter_link] | Collect coins flying over buildings, and avoid planes. | [![C#][csharp_img]![Unity][unity_img]](#)
+9 | [Dreadhalls][dreadhalls_link] | 3D maze game, find the coin, but watch out for holes. | [![C#][csharp_img]![Unity][unity_img]](#)
 10 | [Portal][portal_link] | Portal reproduction, teleport thrugh the level. | [![C#][csharp_img]![Unity][unity_img]](#)
 fp | [Tanks][fp_link] | World of Tanks reproduction with tank movement on a top level. | [![C#][csharp_img]![Unity][unity_img]](#)
 </div>
