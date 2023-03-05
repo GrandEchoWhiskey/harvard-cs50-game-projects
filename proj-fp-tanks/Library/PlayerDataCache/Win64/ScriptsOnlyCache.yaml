@@ -1,9 +1,11 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - Bullet
     - CameraControll
     - MainControll
     - TankControll
+    - scoreScript
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     Unity.TextMeshPro.dll:
@@ -24,6 +26,7 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.GraphicRaycaster
     - UnityEngine.UI.Image
+    - UnityEngine.UI.RawImage
   serializedClasses:
     Unity.TextMeshPro:
     - TMPro.FaceInfo_Legacy
@@ -61,6 +64,57 @@ ScriptsOnlyBuild:
     fullTypeName: MainControll
     methodName: ChangePlayScene
   sceneClasses:
+    Assets/Scenes/EndScene.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1548}
+    - Class: 114
+      Script: {instanceID: 1550}
+    - Class: 114
+      Script: {instanceID: 2654}
+    - Class: 114
+      Script: {instanceID: 3830}
+    - Class: 114
+      Script: {instanceID: 5320}
+    - Class: 114
+      Script: {instanceID: 5938}
+    - Class: 114
+      Script: {instanceID: 6092}
+    - Class: 114
+      Script: {instanceID: 6438}
+    - Class: 114
+      Script: {instanceID: 7630}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
     Assets/Scenes/MainScene.unity:
     - Class: 1
       Script: {instanceID: 0}
@@ -85,21 +139,21 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1546}
     - Class: 114
-      Script: {instanceID: 2652}
+      Script: {instanceID: 1548}
     - Class: 114
-      Script: {instanceID: 2880}
+      Script: {instanceID: 2654}
     - Class: 114
-      Script: {instanceID: 3184}
+      Script: {instanceID: 3186}
     - Class: 114
-      Script: {instanceID: 5316}
+      Script: {instanceID: 5320}
     - Class: 114
-      Script: {instanceID: 5934}
+      Script: {instanceID: 5938}
     - Class: 114
-      Script: {instanceID: 6088}
+      Script: {instanceID: 6092}
     - Class: 114
-      Script: {instanceID: 6434}
+      Script: {instanceID: 6438}
     - Class: 114
-      Script: {instanceID: 7626}
+      Script: {instanceID: 7630}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -143,7 +197,11 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 65
       Script: {instanceID: 0}
+    - Class: 75
+      Script: {instanceID: 0}
     - Class: 81
+      Script: {instanceID: 0}
+    - Class: 84
       Script: {instanceID: 0}
     - Class: 89
       Script: {instanceID: 0}
@@ -152,30 +210,52 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 2214}
+      Script: {instanceID: 1548}
     - Class: 114
-      Script: {instanceID: 2390}
+      Script: {instanceID: 1550}
     - Class: 114
-      Script: {instanceID: 4150}
+      Script: {instanceID: 2218}
     - Class: 114
-      Script: {instanceID: 4262}
+      Script: {instanceID: 2392}
     - Class: 114
-      Script: {instanceID: 4534}
+      Script: {instanceID: 2654}
     - Class: 114
-      Script: {instanceID: 5316}
+      Script: {instanceID: 3098}
     - Class: 114
-      Script: {instanceID: 7626}
+      Script: {instanceID: 4154}
     - Class: 114
-      Script: {instanceID: 7890}
+      Script: {instanceID: 4266}
+    - Class: 114
+      Script: {instanceID: 4538}
+    - Class: 114
+      Script: {instanceID: 5320}
+    - Class: 114
+      Script: {instanceID: 5938}
+    - Class: 114
+      Script: {instanceID: 6092}
+    - Class: 114
+      Script: {instanceID: 6438}
+    - Class: 114
+      Script: {instanceID: 7630}
+    - Class: 114
+      Script: {instanceID: 7894}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
+      Script: {instanceID: 0}
+    - Class: 135
       Script: {instanceID: 0}
     - Class: 136
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
       Script: {instanceID: 0}
   scriptHashData:
   - hash:
@@ -184,6 +264,18 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: Image
+  - hash:
+      serializedVersion: 2
+      Hash: ae83e830e7a90c0aff918c4c2e520825
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: GraphicRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: c1d728126ff1918728036c59106d32b2
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: RawImage
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -282,13 +374,7 @@ ScriptsOnlyBuild:
     className: UnityOnJointBreakMessageListener
   - hash:
       serializedVersion: 2
-      Hash: c1d728126ff1918728036c59106d32b2
-    assemblyName: UnityEngine.UI.dll
-    namespaceName: UnityEngine.UI
-    className: RawImage
-  - hash:
-      serializedVersion: 2
-      Hash: b95c2f58b84eed6b388d98f185249143
+      Hash: 06360960808d62fb6bcacbadeaa7c23b
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: TankControll
@@ -360,12 +446,6 @@ ScriptsOnlyBuild:
     className: TestRunCallbackListener
   - hash:
       serializedVersion: 2
-      Hash: ae83e830e7a90c0aff918c4c2e520825
-    assemblyName: UnityEngine.UI.dll
-    namespaceName: UnityEngine.UI
-    className: GraphicRaycaster
-  - hash:
-      serializedVersion: 2
       Hash: f40fedccd4adbc76605bea6d67537e4b
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
@@ -406,6 +486,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnDropdownValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 571191934b184707ad2db5c7230f7444
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Bullet
   - hash:
       serializedVersion: 2
       Hash: 0784d4fd5b93bd75440d01eb2fac4233
@@ -532,6 +618,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Flow.dll
     namespaceName: Unity.VisualScripting
     className: ScriptGraphAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 0716c5142cf83bba272501a779f27740
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: scoreScript
   - hash:
       serializedVersion: 2
       Hash: e63944317d2f5958e31963668bb29158
@@ -1092,7 +1184,7 @@ ScriptsOnlyBuild:
     className: DropdownSample
   - hash:
       serializedVersion: 2
-      Hash: e0d25a6f6cffb8ff4a4b0a32e9418bd6
+      Hash: 433b51fb25894d904cd9864b56201586
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: CameraControll
@@ -1178,4 +1270,5 @@ ScriptsOnlyBuild:
   scenePathNames:
   - Assets/Scenes/PlayScene.unity
   - Assets/Scenes/MainScene.unity
-  playerPath: C:/Users/Eric/Projekty/harvard-cs50-game-projects/TanksBuild/Tanks.exe
+  - Assets/Scenes/EndScene.unity
+  playerPath: C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks.exe
