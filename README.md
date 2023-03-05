@@ -35,7 +35,7 @@ Certificate key: [104a74c3-5cb6-40a0-8717-b2c650b59f04][certificate_link]
 08 | [Helicopter][helicopter_link] | Collect coins flying over buildings, and avoid planes. | [![C#][csharp_img]![Unity][unity_img]](#)
 09 | [Dreadhalls][dreadhalls_link] | 3D maze game, find the coin, but watch out for holes. | [![C#][csharp_img]![Unity][unity_img]](#)
 10 | [Portal][portal_link] | Portal reproduction, teleport thrugh the level. | [![C#][csharp_img]![Unity][unity_img]](#)
-fp | [Tanks][fp_link] | Portal reproduction, teleport thrugh the level. | [![C#][csharp_img]![Unity][unity_img]](#)
+fp | [Tanks][fp_link] | World of Tanks reproduction with tank movement on a top level. | [![C#][csharp_img]![Unity][unity_img]](#)
 </div>
 
 ---
