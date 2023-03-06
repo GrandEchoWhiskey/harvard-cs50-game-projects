@@ -69,5 +69,5 @@ Despite these limitations, the game is still enjoyable and well-designed, and it
 ### Getting Started:
 Export this directory using SVN.
 ```
-svn export https://github.com/GrandEchoWhiskey/harvard-cs50-game-projects/trunk/proj-10-portal
+svn export https://github.com/GrandEchoWhiskey/harvard-cs50-game-projects/trunk/proj-fp-tanks
 ```
