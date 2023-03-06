@@ -66,3 +66,49 @@ fp | [Tanks][fp_link] | World of Tanks reproduction with tank movement on a top 
 [love_img]:         https://github.com/GrandEchoWhiskey/grandechowhiskey/blob/main/icons/programming/love.png
 [csharp_img]:       https://github.com/GrandEchoWhiskey/grandechowhiskey/blob/main/icons/programming/csharp.png
 [unity_img]:        https://github.com/GrandEchoWhiskey/grandechowhiskey/blob/main/icons/programming/unity.png
+
+Video games are a form of interactive entertainment that are played on a computer, game console, or mobile device. They have become increasingly popular in recent years, and have evolved to include a wide range of different genres and styles.
+
+### Genres of Video Games
+There are many different genres of video games, including:
+
+- **Action**: These are games that involve fast-paced action and often involve combat or other forms of physical activity.
+
+- **Adventure**: These are games that focus on exploration and storytelling, and often involve solving puzzles or completing quests.
+
+- **Role-Playing**: These are games that allow players to assume the role of a character in a fictional world, and often involve developing that character's skills and abilities over time.
+
+- **Strategy**: These are games that require careful planning and decision-making, and often involve building and managing resources or armies.
+
+- **Simulation**: These are games that simulate real-world activities or situations, such as flying a plane or running a business.
+
+- **Sports**: These are games that simulate sports, and often involve competing against other players or teams.
+
+### Platforms
+Video games can be played on a variety of different platforms, including:
+
+- **PC**: Video games can be played on a personal computer, typically using a keyboard and mouse or a game controller.
+
+- **Game Console**: Video games can also be played on a dedicated game console, such as the PlayStation or Xbox.
+
+- **Mobile Devices**: Many video games can be played on mobile devices, such as smartphones or tablets.
+
+### Multiplayer
+Many video games also include a multiplayer component, which allows players to compete against or cooperate with other players online. This has become increasingly popular in recent years, and has led to the rise of competitive esports.
+
+### Impact on Society
+Video games have had a significant impact on society, both positive and negative. Some of the positive impacts include:
+
+- **Education**: Video games can be used to teach new skills or concepts, such as critical thinking or problem-solving.
+
+- **Socialization**: Multiplayer games can help players develop social skills and make new friends.
+
+- **Entertainment**: Video games provide a form of entertainment that can be enjoyed by people of all ages and backgrounds.
+
+However, there are also concerns about the negative impacts of video games, including:
+
+- **Violence**: Some video games include violent content, which has led to concerns about the impact on young players.
+
+- **Addiction**: Some players may become addicted to video games, which can have negative impacts on their health and wellbeing.
+
+- **Isolation**: Playing video games for extended periods of time can lead to social isolation and a lack of physical activity.
