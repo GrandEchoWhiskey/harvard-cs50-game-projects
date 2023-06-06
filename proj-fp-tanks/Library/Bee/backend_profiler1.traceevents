@@ -1,0 +1,597 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1678007767705819, "dur":1264, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678007767707091, "dur":75, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1678007767707201, "dur":17, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1678007767707219, "dur":384, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1678007767707623, "dur":529, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678007767708152, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678007768673935, "dur":125, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678007768674060, "dur":141, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678007768674201, "dur":6, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678007768674207, "dur":13, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678007768674220, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678007768674222, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678007768674229, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678007768674230, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678007768674235, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678007768674237, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678007768674242, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678007768674244, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678007768674249, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678007768674250, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678007768674256, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678007768674257, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678007768674262, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678007768674264, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678007768674269, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678007768674271, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678007768674276, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678007768674278, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678007768674283, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678007768674284, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678007768674290, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678007768674305, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678007768674322, "dur":1470, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1678007767707768, "dur":412, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678007767708180, "dur":4758, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678007767712941, "dur":418, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1678007767713363, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678007767723535, "dur":61649, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1678007767785234, "dur":1099, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/WinPixEventRuntime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678007767786337, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678007767786344, "dur":1087, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/WinPixEventRuntime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678007767787475, "dur":40898, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678007767828380, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678007767828488, "dur":1473, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678007767830005, "dur":114065, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678007767944075, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678007767944087, "dur":1122, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678007767945252, "dur":36917, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678007767982174, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678007767982184, "dur":12555, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678007767994994, "dur":20863, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678007768015864, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678007768015875, "dur":1212, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678007768017135, "dur":22444, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678007768039587, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678007768039599, "dur":1235, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678007768040876, "dur":54136, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678007768095018, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678007768095030, "dur":1357, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678007768096428, "dur":78651, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678007768175085, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678007768175095, "dur":1090, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678007768176227, "dur":872, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678007768177104, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678007768177113, "dur":893, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678007768178045, "dur":15062, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/Unity.Services.Core.Telemetry.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1678007768193113, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678007768193123, "dur":1063, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/Unity.Services.Core.Telemetry.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1678007768194224, "dur":27884, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678007768222114, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678007768222124, "dur":4370, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678007768226541, "dur":746, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678007768227292, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678007768227302, "dur":985, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678007768228327, "dur":78136, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678007768306470, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678007768306483, "dur":1442, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678007768307970, "dur":33493, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678007768341470, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678007768341481, "dur":1610, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678007768343133, "dur":187723, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678007768530861, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678007768530872, "dur":1779, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678007768532690, "dur":141245, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678007767707690, "dur":473, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678007767708166, "dur":4758, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678007767712943, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1678007767712945, "dur":68, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678007767713017, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1678007767713022, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678007767713771, "dur":2401, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1678007767716176, "dur":117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1678007767716296, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678007767716776, "dur":7902, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1678007767724723, "dur":106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":2, "ts":1678007767724833, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678007767724841, "dur":60665, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":2, "ts":1678007767785559, "dur":3938, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":2, "ts":1678007767789502, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678007767789510, "dur":1957, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":2, "ts":1678007767791514, "dur":42595, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678007767834114, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678007767834125, "dur":1517, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678007767835687, "dur":19291, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678007767854983, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678007767855017, "dur":1215, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678007767859114, "dur":275021, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678007768134142, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678007768134153, "dur":6643, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678007768140841, "dur":11306, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/Unity.VisualScripting.Flow.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1678007768152152, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678007768152162, "dur":1645, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/Unity.VisualScripting.Flow.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1678007768153851, "dur":8668, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/Unity.Timeline.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1678007768162526, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678007768162538, "dur":1285, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/Unity.Timeline.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1678007768163867, "dur":9838, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/Unity.TextMeshPro.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1678007768173713, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678007768173758, "dur":1355, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/Unity.TextMeshPro.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1678007768175155, "dur":13451, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/Unity.Services.Core.Threading.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1678007768188615, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678007768188628, "dur":1216, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/Unity.Services.Core.Threading.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1678007768189883, "dur":57536, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678007768247423, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678007768247431, "dur":4196, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678007768251670, "dur":104669, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678007768356345, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678007768356357, "dur":1350, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678007768357760, "dur":161587, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678007768519350, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678007768519360, "dur":1043, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678007768520440, "dur":153489, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678007767707733, "dur":437, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678007767708170, "dur":4764, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678007767712940, "dur":121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1678007767713064, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678007767728315, "dur":57322, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1678007767785788, "dur":66956, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678007767852749, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678007767852759, "dur":2719, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678007767855528, "dur":20570, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678007767876105, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678007767876116, "dur":1320, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678007767877483, "dur":144392, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678007768021882, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678007768021892, "dur":1279, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678007768023211, "dur":19639, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678007768042856, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678007768042867, "dur":1242, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678007768044161, "dur":28516, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678007768072683, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678007768072695, "dur":1034, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678007768073769, "dur":27565, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678007768101341, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678007768101353, "dur":1372, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678007768102902, "dur":147462, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678007768250369, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678007768250380, "dur":2400, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678007768252826, "dur":190858, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678007768443690, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678007768443702, "dur":1724, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678007768445467, "dur":179422, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678007768624894, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678007768624903, "dur":951, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678007768625880, "dur":48058, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678007767707758, "dur":419, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678007767708177, "dur":4770, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678007767712948, "dur":245, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1678007767713196, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678007767718382, "dur":9111, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1678007767727536, "dur":55824, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678007767783371, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678007767783825, "dur":2819, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678007767786696, "dur":23270, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678007767809972, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678007767813504, "dur":3517, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678007767817067, "dur":22498, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678007767839570, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678007767839581, "dur":1818, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678007767841517, "dur":34986, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678007767876507, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678007767876516, "dur":2583, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678007767879148, "dur":37816, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678007767916969, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678007767916978, "dur":1803, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678007767918817, "dur":19981, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678007767938803, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678007767938814, "dur":1366, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678007767940215, "dur":21827, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678007767962048, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678007767962060, "dur":1716, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678007767963815, "dur":23096, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678007767986916, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678007767986927, "dur":1398, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678007767988373, "dur":76136, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678007768064538, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678007768064549, "dur":3857, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678007768068452, "dur":66571, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678007768135028, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678007768135039, "dur":1523, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678007768136609, "dur":9861, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/Unity.VisualScripting.State.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1678007768146476, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678007768146489, "dur":1151, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/Unity.VisualScripting.State.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1678007768147684, "dur":96086, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678007768243774, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678007768243782, "dur":2762, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678007768246590, "dur":9038, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/Unity.Services.Core.Analytics.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1678007768255632, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678007768255642, "dur":2868, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/Unity.Services.Core.Analytics.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1678007768258551, "dur":83662, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678007768342216, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678007768342225, "dur":1391, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678007768343650, "dur":130661, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678007768474345, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678007768474357, "dur":1756, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678007768476161, "dur":104993, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678007768581158, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678007768581167, "dur":886, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678007768582075, "dur":91858, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1678007767707798, "dur":388, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1678007767708186, "dur":4744, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1678007767712940, "dur":24004, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":5, "ts":1678007767736950, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1678007767783765, "dur":1997, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":5, "ts":1678007767785814, "dur":24060, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1678007767810011, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1678007767811094, "dur":2723, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1678007767813943, "dur":38205, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1678007767852153, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1678007767852164, "dur":2922, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1678007767855135, "dur":77082, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1678007767932223, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1678007767932233, "dur":7667, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1678007767939936, "dur":29993, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1678007767969936, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1678007767969956, "dur":1411, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1678007767971408, "dur":54073, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1678007768025486, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1678007768025496, "dur":3556, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1678007768029100, "dur":36077, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1678007768065181, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1678007768065191, "dur":3842, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1678007768069081, "dur":66436, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1678007768135933, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1678007768135944, "dur":2612, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1678007768138602, "dur":91405, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":5, "ts":1678007768230012, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1678007768230023, "dur":2048, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":5, "ts":1678007768232115, "dur":10921, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/Unity.Services.Core.Environments.Internal.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1678007768243041, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1678007768243051, "dur":1342, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/Unity.Services.Core.Environments.Internal.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1678007768244438, "dur":10858, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/Unity.Services.Core.Configuration.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1678007768255325, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1678007768255335, "dur":1513, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/Unity.Services.Core.Configuration.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1678007768256928, "dur":84908, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":5, "ts":1678007768341841, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1678007768341851, "dur":1352, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":5, "ts":1678007768343276, "dur":42935, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":5, "ts":1678007768386218, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1678007768386230, "dur":1169, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":5, "ts":1678007768387450, "dur":125358, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":5, "ts":1678007768512813, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1678007768512822, "dur":4180, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":5, "ts":1678007768517044, "dur":156887, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1678007767707823, "dur":366, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1678007767708189, "dur":4756, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1678007767712945, "dur":8398, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1678007767721347, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1678007767721363, "dur":1063, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1678007767722469, "dur":10345, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1678007767732820, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1678007767732833, "dur":52736, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1678007767785622, "dur":44622, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks.exe" }}
+,{ "pid":12345, "tid":6, "ts":1678007767830248, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1678007767830256, "dur":1406, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks.exe" }}
+,{ "pid":12345, "tid":6, "ts":1678007767831698, "dur":21915, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1678007767853618, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1678007767853627, "dur":2490, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1678007767856193, "dur":72153, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1678007767928353, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1678007767928365, "dur":1304, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1678007767929717, "dur":77118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1678007768006839, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1678007768006848, "dur":970, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1678007768007852, "dur":140180, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1678007768148036, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1678007768148046, "dur":9012, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1678007768157095, "dur":97745, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":6, "ts":1678007768254844, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1678007768254854, "dur":1638, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":6, "ts":1678007768256532, "dur":156525, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":6, "ts":1678007768413063, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1678007768413076, "dur":1497, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":6, "ts":1678007768414621, "dur":257351, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":6, "ts":1678007768671976, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1678007768671984, "dur":1874, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":6, "ts":1678007768673881, "dur":0, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":6, "ts":1678007768673882, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1678007767707848, "dur":347, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1678007767708195, "dur":4745, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1678007767712941, "dur":9277, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1678007767722222, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1678007767722244, "dur":1441, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1678007767723727, "dur":125, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1678007767723856, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1678007767723865, "dur":209428, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1678007767933344, "dur":43541, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1678007767976890, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1678007767976908, "dur":7246, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1678007767984195, "dur":20483, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1678007768004684, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1678007768004697, "dur":1897, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1678007768006634, "dur":44819, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1678007768051459, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1678007768051471, "dur":1478, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1678007768052988, "dur":61330, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1678007768114323, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1678007768114335, "dur":60297, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1678007768174682, "dur":363154, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":7, "ts":1678007768537842, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1678007768537852, "dur":1238, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":7, "ts":1678007768539119, "dur":134829, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1678007767707878, "dur":322, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1678007767708200, "dur":4744, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1678007767712944, "dur":122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1678007767713069, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1678007767718428, "dur":8468, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1678007767726940, "dur":116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":8, "ts":1678007767727059, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1678007767727068, "dur":56717, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":8, "ts":1678007767783845, "dur":18973, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678007767802824, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1678007767802935, "dur":4009, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678007767807006, "dur":22175, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678007767829186, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1678007767829196, "dur":1482, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678007767830722, "dur":21212, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678007767851945, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1678007767851961, "dur":1988, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678007767854025, "dur":62701, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678007767916732, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1678007767916744, "dur":1911, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678007767918699, "dur":62246, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678007767980951, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1678007767980963, "dur":5498, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678007767986510, "dur":36993, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678007768023508, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1678007768023518, "dur":1501, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678007768025062, "dur":30788, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678007768055856, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1678007768055867, "dur":3490, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678007768059401, "dur":61487, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678007768120896, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1678007768120907, "dur":20811, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678007768141763, "dur":102326, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678007768244093, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1678007768244101, "dur":2472, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678007768246613, "dur":716, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678007768247334, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1678007768247342, "dur":1014, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678007768248390, "dur":63091, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678007768311486, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1678007768311497, "dur":1215, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678007768312758, "dur":209205, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678007768521967, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1678007768521976, "dur":1349, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678007768523350, "dur":150582, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1678007767707905, "dur":301, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1678007767708206, "dur":4730, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1678007767712940, "dur":9036, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":9, "ts":1678007767721979, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1678007767722043, "dur":1155, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":9, "ts":1678007767723243, "dur":60140, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":9, "ts":1678007767783390, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1678007767783399, "dur":2265, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":9, "ts":1678007767785710, "dur":128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":9, "ts":1678007767785843, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1678007767786157, "dur":11875, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":9, "ts":1678007767798082, "dur":37866, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1678007767835952, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1678007767835961, "dur":1220, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1678007767837246, "dur":16687, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1678007767853937, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1678007767853947, "dur":1963, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1678007767855959, "dur":39146, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1678007767895112, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1678007767895122, "dur":1125, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1678007767896544, "dur":59256, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1678007767955807, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1678007767955818, "dur":3402, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1678007767959282, "dur":21917, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1678007767981204, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1678007767981213, "dur":3818, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1678007767985072, "dur":74275, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1678007768059351, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1678007768059363, "dur":7043, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1678007768066449, "dur":38997, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1678007768105467, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1678007768105478, "dur":1481, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1678007768107016, "dur":85621, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1678007768192643, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1678007768192654, "dur":1185, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1678007768193906, "dur":10507, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/Unity.Services.Core.Scheduler.pdb" }}
+,{ "pid":12345, "tid":9, "ts":1678007768204419, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1678007768204429, "dur":1110, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/Unity.Services.Core.Scheduler.pdb" }}
+,{ "pid":12345, "tid":9, "ts":1678007768205582, "dur":8817, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/Unity.Services.Core.pdb" }}
+,{ "pid":12345, "tid":9, "ts":1678007768214405, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1678007768214416, "dur":1531, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/Unity.Services.Core.pdb" }}
+,{ "pid":12345, "tid":9, "ts":1678007768216000, "dur":8893, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/Unity.Services.Core.Networking.pdb" }}
+,{ "pid":12345, "tid":9, "ts":1678007768224899, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1678007768224909, "dur":2238, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/Unity.Services.Core.Networking.pdb" }}
+,{ "pid":12345, "tid":9, "ts":1678007768227190, "dur":6002, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/Unity.Services.Core.Internal.pdb" }}
+,{ "pid":12345, "tid":9, "ts":1678007768233196, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1678007768233205, "dur":1236, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/Unity.Services.Core.Internal.pdb" }}
+,{ "pid":12345, "tid":9, "ts":1678007768234477, "dur":672, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":9, "ts":1678007768235153, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1678007768235183, "dur":1237, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":9, "ts":1678007768236464, "dur":39154, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":9, "ts":1678007768275625, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1678007768275636, "dur":3181, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":9, "ts":1678007768278862, "dur":48244, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":9, "ts":1678007768327113, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1678007768327125, "dur":1076, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":9, "ts":1678007768328237, "dur":242947, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":9, "ts":1678007768571189, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1678007768571197, "dur":1631, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":9, "ts":1678007768572852, "dur":101084, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1678007767707932, "dur":279, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1678007767708211, "dur":4739, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1678007767712951, "dur":255, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":10, "ts":1678007767713209, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1678007767722970, "dur":220424, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":10, "ts":1678007767943438, "dur":18606, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1678007767962049, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1678007767962060, "dur":1620, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1678007767963724, "dur":25356, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1678007767989085, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1678007767989096, "dur":1343, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1678007767990484, "dur":38669, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1678007768029157, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1678007768029167, "dur":1562, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1678007768030770, "dur":121267, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1678007768152045, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1678007768152058, "dur":1271, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1678007768153372, "dur":79665, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":10, "ts":1678007768233042, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1678007768233054, "dur":1334, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":10, "ts":1678007768234426, "dur":720, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":10, "ts":1678007768235150, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1678007768235159, "dur":1443, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":10, "ts":1678007768236667, "dur":8782, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/Unity.Services.Core.Device.pdb" }}
+,{ "pid":12345, "tid":10, "ts":1678007768245454, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1678007768245462, "dur":1969, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/Unity.Services.Core.Device.pdb" }}
+,{ "pid":12345, "tid":10, "ts":1678007768247477, "dur":268857, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":10, "ts":1678007768516338, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1678007768516347, "dur":2648, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":10, "ts":1678007768519033, "dur":154885, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1678007767707973, "dur":244, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1678007767708217, "dur":4732, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1678007767712949, "dur":8411, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1678007767721364, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1678007767721384, "dur":1229, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1678007767722657, "dur":179, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":11, "ts":1678007767722839, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1678007767722906, "dur":62508, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":11, "ts":1678007767785474, "dur":62528, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":11, "ts":1678007767848008, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1678007767848018, "dur":21457, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":11, "ts":1678007767869527, "dur":6791, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/UnityEngine.UI.pdb" }}
+,{ "pid":12345, "tid":11, "ts":1678007767876323, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1678007767876332, "dur":1504, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/UnityEngine.UI.pdb" }}
+,{ "pid":12345, "tid":11, "ts":1678007767877869, "dur":21130, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1678007767899005, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1678007767899015, "dur":1744, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1678007767900805, "dur":127293, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1678007768028105, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1678007768028117, "dur":3323, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1678007768031482, "dur":28930, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1678007768060417, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1678007768060427, "dur":3035, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1678007768063505, "dur":48950, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1678007768112462, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1678007768112474, "dur":1146, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1678007768113657, "dur":27234, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1678007768140896, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1678007768140908, "dur":1696, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1678007768142648, "dur":46835, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/Unity.VisualScripting.Core.pdb" }}
+,{ "pid":12345, "tid":11, "ts":1678007768189488, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1678007768189499, "dur":7390, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/Unity.VisualScripting.Core.pdb" }}
+,{ "pid":12345, "tid":11, "ts":1678007768196931, "dur":24008, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/Unity.Services.Core.Registration.pdb" }}
+,{ "pid":12345, "tid":11, "ts":1678007768220946, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1678007768220957, "dur":8374, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/Unity.Services.Core.Registration.pdb" }}
+,{ "pid":12345, "tid":11, "ts":1678007768229380, "dur":12296, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/Unity.Services.Core.Environments.pdb" }}
+,{ "pid":12345, "tid":11, "ts":1678007768241684, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1678007768241696, "dur":1228, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/Unity.Services.Core.Environments.pdb" }}
+,{ "pid":12345, "tid":11, "ts":1678007768242970, "dur":787, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":11, "ts":1678007768243761, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1678007768243769, "dur":2438, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":11, "ts":1678007768246738, "dur":150192, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":11, "ts":1678007768396937, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1678007768396947, "dur":1221, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":11, "ts":1678007768398211, "dur":121761, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":11, "ts":1678007768519977, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1678007768519986, "dur":1315, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":11, "ts":1678007768521340, "dur":152585, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1678007767708000, "dur":222, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1678007767708222, "dur":4720, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1678007767712945, "dur":428, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":12, "ts":1678007767713377, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1678007767714564, "dur":223609, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":12, "ts":1678007767938223, "dur":36869, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1678007767975098, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1678007767975109, "dur":1534, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1678007767976682, "dur":74837, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1678007768051524, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1678007768051533, "dur":1497, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1678007768053074, "dur":145352, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1678007768198430, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1678007768198441, "dur":1698, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1678007768200185, "dur":43493, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":12, "ts":1678007768243682, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1678007768243692, "dur":2373, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":12, "ts":1678007768246116, "dur":34358, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":12, "ts":1678007768280479, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1678007768280490, "dur":1129, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":12, "ts":1678007768281660, "dur":107537, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":12, "ts":1678007768389202, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1678007768389212, "dur":1665, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":12, "ts":1678007768390914, "dur":9686, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/Newtonsoft.Json.pdb" }}
+,{ "pid":12345, "tid":12, "ts":1678007768400605, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1678007768400616, "dur":2108, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/Newtonsoft.Json.pdb" }}
+,{ "pid":12345, "tid":12, "ts":1678007768402759, "dur":65471, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":12, "ts":1678007768468237, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1678007768468251, "dur":1208, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":12, "ts":1678007768469500, "dur":8388, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/Assembly-CSharp.pdb" }}
+,{ "pid":12345, "tid":12, "ts":1678007768477893, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1678007768477905, "dur":1013, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Managed/Assembly-CSharp.pdb" }}
+,{ "pid":12345, "tid":12, "ts":1678007768478955, "dur":116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":12, "ts":1678007768479075, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1678007768479458, "dur":918, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":12, "ts":1678007768480412, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":12, "ts":1678007768480452, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1678007768480510, "dur":1012, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":12, "ts":1678007768481560, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":12, "ts":1678007768481599, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1678007768481606, "dur":970, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":12, "ts":1678007768482611, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":12, "ts":1678007768482649, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1678007768482656, "dur":1209, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":12, "ts":1678007768483901, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":12, "ts":1678007768483944, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1678007768483975, "dur":882, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":12, "ts":1678007768484893, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":12, "ts":1678007768484930, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1678007768484937, "dur":7742, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":12, "ts":1678007768492727, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":12, "ts":1678007768492770, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1678007768492779, "dur":5066, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":12, "ts":1678007768497881, "dur":117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":12, "ts":1678007768498001, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1678007768498010, "dur":958, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":12, "ts":1678007768499008, "dur":795, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":12, "ts":1678007768499807, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1678007768499816, "dur":1018, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":12, "ts":1678007768500871, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":12, "ts":1678007768500909, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1678007768500916, "dur":1576, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":12, "ts":1678007768502528, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/resources.assets" }}
+,{ "pid":12345, "tid":12, "ts":1678007768502567, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1678007768502575, "dur":1160, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/resources.assets" }}
+,{ "pid":12345, "tid":12, "ts":1678007768503780, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/level2" }}
+,{ "pid":12345, "tid":12, "ts":1678007768503843, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1678007768503850, "dur":1087, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/level2" }}
+,{ "pid":12345, "tid":12, "ts":1678007768504969, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/level1.resS" }}
+,{ "pid":12345, "tid":12, "ts":1678007768505004, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1678007768505010, "dur":996, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/level1.resS" }}
+,{ "pid":12345, "tid":12, "ts":1678007768506043, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/level1" }}
+,{ "pid":12345, "tid":12, "ts":1678007768506081, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1678007768506088, "dur":1458, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/level1" }}
+,{ "pid":12345, "tid":12, "ts":1678007768507582, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/level0.resS" }}
+,{ "pid":12345, "tid":12, "ts":1678007768507620, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1678007768507627, "dur":1114, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/level0.resS" }}
+,{ "pid":12345, "tid":12, "ts":1678007768508784, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/level0" }}
+,{ "pid":12345, "tid":12, "ts":1678007768508827, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1678007768508834, "dur":945, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/level0" }}
+,{ "pid":12345, "tid":12, "ts":1678007768509814, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":12, "ts":1678007768509855, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1678007768509862, "dur":989, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":12, "ts":1678007768510891, "dur":116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":12, "ts":1678007768511011, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1678007768511018, "dur":4404, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":12, "ts":1678007768515472, "dur":137, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/boot.config" }}
+,{ "pid":12345, "tid":12, "ts":1678007768515612, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1678007768515621, "dur":975, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eric/Projekty/harvard-cs50-game-projects/tb/Tanks_Data/boot.config" }}
+,{ "pid":12345, "tid":12, "ts":1678007768516632, "dur":157287, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678007768676961, "dur":1639, "ph":"X", "name": "ProfilerWriteOutput" }
+,
