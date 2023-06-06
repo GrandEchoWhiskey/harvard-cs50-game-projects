@@ -1,114 +1,73 @@
-[<- Back to main](https://github.com/GrandEchoWhiskey)
+[<- Back to course](../README.md)
 
 <p align="center"><a href="https://cs50.harvard.edu/games/2018">
   <img src="https://github.com/GrandEchoWhiskey/grandechowhiskey/blob/main/icons/course/harvard100.png" /><br>
 </a></p>
-<h1 align="center">CS50’s Introduction to Game Development</h1>
+<h1 align="center">CS50’s Introduction to Game Development<br><br>Final Project<br>Tanks</h1>
 
 <p align="center"><a href="#">
-  <img src="https://github.com/GrandEchoWhiskey/grandechowhiskey/blob/main/icons/programming/lua.png" />
-  <img src="https://github.com/GrandEchoWhiskey/grandechowhiskey/blob/main/icons/programming/love.png" />
   <img src="https://github.com/GrandEchoWhiskey/grandechowhiskey/blob/main/icons/programming/csharp.png" />
   <img src="https://github.com/GrandEchoWhiskey/grandechowhiskey/blob/main/icons/programming/unity.png" />
 </a></p>
 
-<br>
+#### Video Demo:  [youtu.be/vaul02EMQoY](https://youtu.be/aOEjU1noi4M)
 
-#### Free HarvardX course on [cs50.harvard.edu/games/2018][harvard_link] 
-Certificate key: [104a74c3-5cb6-40a0-8717-b2c650b59f04][certificate_link]
+### Description:
+This is a 3D tank game made with Unity, where the player controls a tank and shoots enemy targets in a battlefield environment.
 
----
+#### Gameplay
+The game features a tank that can be moved with the arrow keys or the W, A, S, D keys. The tank has a turret that can be rotated with the mouse, and a muzzle that can be elevated with the mouse also. The player can shoot bullets with the left mouse button to destroy enemy targets.
 
-<div align="center" markdown>
+The objective of the game is to shoot down all enemy targets to win. The game ends when the player reaches a score of 3. The targets are other tanks.
 
-## Projects:
-\# | Name | Description | Technology
-:---: | :--- | :--- | :---:
-0 | [Pong][pong_link] | Easy pong game with implemented basic AI | [![Lua][lua_img]![LÖVE][love_img]](#)
-1 | [Flappy][flappy_link] | Reproduction of Flappy Bird | [![Lua][lua_img]![LÖVE][love_img]](#)
-2 | [Breakout][breakout_link] | Breakout game with powerups | [![Lua][lua_img]![LÖVE][love_img]](#)
-3 | [Match][match_link] | Match 3 in a row, added special tiles | [![Lua][lua_img]![LÖVE][love_img]](#)
-4 | [Mario][mario_link] | Mario game generated automaticly | [![Lua][lua_img]![LÖVE][love_img]](#)
-5 | [Zelda][zelda_link] | Zelda game with pot throwing | [![Lua][lua_img]![LÖVE][love_img]](#)
-6 | [Angry][angry_link] | Throwing birds, and splitting in air | [![Lua][lua_img]![LÖVE][love_img]](#)
-7 | [Pokemon][pokemon_link] | Pokemon game with stats, and level up | [![Lua][lua_img]![LÖVE][love_img]](#)
-8 | [Helicopter][helicopter_link] | Collect coins flying over buildings, and avoid planes. | [![C#][csharp_img]![Unity][unity_img]](#)
-9 | [Dreadhalls][dreadhalls_link] | 3D maze game, find the coin, but watch out for holes. | [![C#][csharp_img]![Unity][unity_img]](#)
-10 | [Portal][portal_link] | Portal reproduction, teleport thrugh the level. | [![C#][csharp_img]![Unity][unity_img]](#)
-fp | [Tanks][fp_link] | World of Tanks reproduction with tank movement on a top level. | [![C#][csharp_img]![Unity][unity_img]](#)
-</div>
+#### Scripts
+##### TankControll.cs
+This script is responsible for the main game logic. It handles the movement and rotation of the tank, turret, and muzzle. It also handles shooting and reloading, and updates the player's score and the UI text accordingly.
 
----
-  
-<p align="center"><a href="https://certificates.cs50.io/104a74c3-5cb6-40a0-8717-b2c650b59f04">
-  <img src="data/CS50G.png" width="90%"/>
-</a></p>
+Creating rotations for different parts of a tank in a game can be a bit challenging, as each part may require a different type of rotation. In this tank game, the tank, turret, and muzzle all required different types of rotations.
 
-<!-- Links -->
+The tank movement was relatively straightforward, as it only required the tank to rotate left or right and move forward or backward. This was done using Unity's built-in Rigidbody component and the tank's Transform component.
 
-[harvard_link]:     https://cs50.harvard.edu/games/2018
-[certificate_link]: https://certificates.cs50.io/104a74c3-5cb6-40a0-8717-b2c650b59f04
+On the other hand, the turret rotation required a different approach. It needed to rotate around the base of the turret and follow the mouse movement. This was done by using the Transform component of the turret and applying the rotation using the mouse position.
 
-[pong_link]:        proj-00-pong
-[flappy_link]:      proj-01-flappy
-[breakout_link]:    proj-02-breakout
-[match_link]:       proj-03-match
-[mario_link]:       proj-04-mario
-[zelda_link]:       proj-05-zelda
-[angry_link]:       proj-06-angry
-[pokemon_link]:     proj-07-pokemon
-[helicopter_link]:  proj-08-helicopter
-[dreadhalls_link]:  proj-09-dreadhalls
-[portal_link]:      proj-10-portal
-[fp_link]:          proj-fp-tanks
+The muzzle elevation was another challenge as it required a combination of both rotation and translation. The muzzle needed to elevate or lower based on the mouse movement while keeping its rotation aligned with the turret. This was achieved by applying a rotation around the X-axis of the muzzle Transform and a translation along the Z-axis based on the mouse position.
 
-[lua_img]:          https://github.com/GrandEchoWhiskey/grandechowhiskey/blob/main/icons/programming/lua.png
-[love_img]:         https://github.com/GrandEchoWhiskey/grandechowhiskey/blob/main/icons/programming/love.png
-[csharp_img]:       https://github.com/GrandEchoWhiskey/grandechowhiskey/blob/main/icons/programming/csharp.png
-[unity_img]:        https://github.com/GrandEchoWhiskey/grandechowhiskey/blob/main/icons/programming/unity.png
+Overall, creating rotations for the different parts of the tank required a combination of different techniques, such as using Transform components, applying rotations and translations, and following mouse positions. With careful planning and experimentation, it was possible to create a smooth and responsive tank game that feels natural and fun to play.
 
-Video games are a form of interactive entertainment that are played on a computer, game console, or mobile device. They have become increasingly popular in recent years, and have evolved to include a wide range of different genres and styles.
+##### CameraControll.cs
+This script handles the first-person camera movement. It allows the player to look around with the mouse and switch between first-person and third-person views.
 
-### Genres of Video Games
-There are many different genres of video games, including:
+##### Bullet.cs
+This script defines the behavior of bullets. It sets the speed and direction of the bullet, and destroys it when it collides with an object.
 
-- **Action**: These are games that involve fast-paced action and often involve combat or other forms of physical activity.
+#### Credits
+This game was created by Eric Wolf. The tank and bullet models were downloaded from the Unity Asset Store. The battlefield environment was created by Eric Wolf using Unity's terrain tools.
 
-- **Adventure**: These are games that focus on exploration and storytelling, and often involve solving puzzles or completing quests.
+#### Problems
+Although this tank game has several interesting features, it also presents some challenges that could be improved in future versions:
 
-- **Role-Playing**: These are games that allow players to assume the role of a character in a fictional world, and often involve developing that character's skills and abilities over time.
+- Limited enemy variety: The game only features one type of enemy target, which can make the gameplay repetitive after a while. Adding more types of enemies, each with unique behaviors and abilities, could make the game more engaging and challenging.
 
-- **Strategy**: These are games that require careful planning and decision-making, and often involve building and managing resources or armies.
+- Lack of terrain diversity: The game takes place in a urban landscape, which can be visually appealing but doesn't offer much variation in terms of gameplay. Adding different types of terrain, such as hills, forests, or desert areas, could make the game more dynamic and interesting to explore.
 
-- **Simulation**: These are games that simulate real-world activities or situations, such as flying a plane or running a business.
+- Limited customization options: Although the game allows the player to switch between first-person and third-person views, it doesn't offer many other customization options, such as changing the tank's color, upgrading its weapons or armor, or choosing different types of ammunition. Adding more customization options could give the player a greater sense of ownership and investment in the game.
 
-- **Sports**: These are games that simulate sports, and often involve competing against other players or teams.
+Despite these limitations, the game is still enjoyable and well-designed, and it showcases some of the capabilities of Unity and game development in general. By addressing these issues and adding more features, the game could become even more compelling and immersive.
 
-### Platforms
-Video games can be played on a variety of different platforms, including:
+#### TODO:
+- Create enemy AI to make enemies more challenging.
+- Add power-ups for the player to collect, such as health boosts or more powerful bullets.
+- Create different types of enemy targets with varying health and attack patterns.
+- Add different levels with unique landscapes and obstacles.
+- Implement a multiplayer mode to allow players to compete against each other.
+- Improve graphics and sound effects to enhance the player's experience.
+- Add a tutorial or instructions screen for new players.
+- Implement a leaderboard to track high scores.
+- Test the game thoroughly and fix any bugs or glitches.
+- Optimize the game for better performance on different devices.
 
-- **PC**: Video games can be played on a personal computer, typically using a keyboard and mouse or a game controller.
-
-- **Game Console**: Video games can also be played on a dedicated game console, such as the PlayStation or Xbox.
-
-- **Mobile Devices**: Many video games can be played on mobile devices, such as smartphones or tablets.
-
-### Multiplayer
-Many video games also include a multiplayer component, which allows players to compete against or cooperate with other players online. This has become increasingly popular in recent years, and has led to the rise of competitive esports.
-
-### Impact on Society
-Video games have had a significant impact on society, both positive and negative. Some of the positive impacts include:
-
-- **Education**: Video games can be used to teach new skills or concepts, such as critical thinking or problem-solving.
-
-- **Socialization**: Multiplayer games can help players develop social skills and make new friends.
-
-- **Entertainment**: Video games provide a form of entertainment that can be enjoyed by people of all ages and backgrounds.
-
-However, there are also concerns about the negative impacts of video games, including:
-
-- **Violence**: Some video games include violent content, which has led to concerns about the impact on young players.
-
-- **Addiction**: Some players may become addicted to video games, which can have negative impacts on their health and wellbeing.
-
-- **Isolation**: Playing video games for extended periods of time can lead to social isolation and a lack of physical activity.
+### Getting Started:
+Export this directory using SVN.
+```
+svn export https://github.com/GrandEchoWhiskey/harvard-cs50-game-projects/trunk/proj-fp-tanks
+```
